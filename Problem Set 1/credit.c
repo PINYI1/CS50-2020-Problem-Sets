@@ -30,8 +30,7 @@ int main(void)
     
     int test_num = (odd_sum + even_sum) % 10;
     int initial_digit = digit1 * 10 + digit2;
-    printf("Initial_dg: %d\n", initial_digit);
-    printf("Count: %d\n", count);
+
     if (test_num == 0 &&(initial_digit == 34 || initial_digit == 37) && (count == 15))
     {
         printf("AMEX\n");
